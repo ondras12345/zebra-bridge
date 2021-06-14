@@ -26,10 +26,11 @@ I had some issues with com0com 3.0.0.0 (unsigned driver), so I used
 instead.
 
 ```
-python zebra-bridge.py --help
+> python zebra-bridge.py --help
 usage: zebra-bridge.py [-h] [--port PORT] COM host
 
-A simple program for redirecting ZPL print jobs from a virtual COM port to a networked Zebra printer over TCP.
+A simple program for redirecting ZPL print jobs from a virtual COM port to a
+networked Zebra printer over TCP.
 
 positional arguments:
   COM                   the virtual serial port created by com0com
@@ -42,7 +43,7 @@ optional arguments:
 
 Start the script on COM2 with a printer at 192.168.1.3:
 ```
-python zebra-bridge.py COM2 192.168.1.3
+> python zebra-bridge.py COM2 192.168.1.3
 ```
 
 
